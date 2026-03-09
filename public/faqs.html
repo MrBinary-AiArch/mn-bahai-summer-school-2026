@@ -58,6 +58,13 @@
 .wsite-product .wsite-product-price a {}
 }</style>
 
+<style type='text/css'>
+.wsite-header {
+	background-image: url(/uploads/1/6/5/1/16517546/header_images/1359929294.jpg) !important;
+	background-position: 0 0 !important;
+}
+</style>
+
 		<script src='files/templateArtifacts.js?1602293311'></script>
 <script>
 var STATIC_BASE = '//cdn1.editmysite.com/';
@@ -96,11 +103,11 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 	function initFlyouts(){
 		initPublishedFlyoutMenus(
 			[{"id":"294316566188360322","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},{"id":"154408622508678244","title":"Theme","url":"theme.html","target":"","nav_menu":false,"nonclickable":false},{"id":"392942156513030880","title":"Registration","url":"registration.html","target":"","nav_menu":false,"nonclickable":false},{"id":"722410362276720990","title":"Recreation and Activities","url":"recreation-and-activities.html","target":"","nav_menu":false,"nonclickable":false},{"id":"911999360159781514","title":"About Us","url":"about-us.html","target":"","nav_menu":false,"nonclickable":false},{"id":"115341656858823122","title":"Contact Us","url":"contact-us.html","target":"","nav_menu":false,"nonclickable":false}],
-			"780669997136120184",
+			"122347242104705444",
 			'',
 			'active',
 			false,
-			{"navigation\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\t{{#membership_required}}\n\t\t\tdata-membership-required=\"{{.}}\"\n\t\t{{\/membership_required}}\n\t\tclass=\"wsite-menu-item\"\n\t\t>\n\t\t{{{title_html}}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n","navigation\/flyout\/list":"<div class=\"wsite-menu-wrap\" style=\"display:none\">\n\t<ul class=\"wsite-menu\">\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","navigation\/flyout\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}}\n\tclass=\"wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}}\"\n\t>\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\tclass=\"wsite-menu-subitem\"\n\t\t>\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{title_html}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n"},
+			{"navigation\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\t{{#membership_required}}\n\t\t\tdata-membership-required=\"{{.}}\"\n\t\t{{\/membership_required}}\n\t\tclass=\"wsite-menu-item\"\n\t\t>\n\t\t{{{title_html}}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/children}}\n<\/li>\n","navigation\/flyout\/list":"<div class=\"wsite-menu-wrap\" style=\"display:none\">\n\t<ul class=\"wsite-menu\">\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","navigation\/flyout\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}}\n\tclass=\"wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}}\"\n\t>\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\tclass=\"wsite-menu-subitem\"\n\t\t>\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{title_html}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n"},
 			{}
 		)
 	}
@@ -109,12 +116,12 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 		
 		
 	</head>
-	<body class=" no-header-page  wsite-theme-light  wsite-page-faqs"><div id="header-wrap">
+	<body class=" tall-header-page wsite-theme-light  wsite-page-faqs"><div id="header-wrap">
     <div class="container">
         <table id="header"><tr>
            <td id="logo"><span class="wsite-logo">
 
-	<a href="">
+	<a href="index.html">
 	
 	<span id="wsite-title">William Sears Bah&aacute;'&iacute; School</span>
 	
@@ -297,56 +304,32 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
         <div id="main">
             <div id="content"><div id="wsite-content" class="wsite-elements wsite-not-footer">
 	<h2 class="wsite-content-title" style="text-align:left;">Are scholarships and financial assistance&nbsp;available?</h2>
-<div class="paragraph" style="text-align:left;display:block;">Yes! Please fill out the Scholarship form by downloading it from the&nbsp;<a href="registration_old.html">registration </a>section, and then you can either email or mail it to the registrar.</div>
+<div class="paragraph" style="text-align:left;display:block;">Scholarship information for the 2026 session will be available once registration officially opens. Please check back later or <a href="savethedate.html">sign up for notifications</a> to stay updated.</div>
 
 <h2 class="wsite-content-title" style="text-align:left;">Can I request to share a room with friends and family?</h2>
-<div class="paragraph" style="text-align:left;display:block;">William Sears Bah&aacute;'&iacute; School will make every effort to&nbsp;accommodate&nbsp;requests but does not make any&nbsp;guarantees.<br />Please list the names of the individuals you'd like to room with in your registration form.&nbsp;<br /><br /><strong>Note:&nbsp;<br />All rooms must have at least one adult (over 21 years of age) if anyone in the room is under the age of 18 years.&nbsp;<br />All rooms are single gender, with the exception of families and sponsoring adults.</strong></div>
+<div class="paragraph" style="text-align:left;display:block;">Minnesota Baha'i Summer School will make every effort to&nbsp;accommodate&nbsp;requests but does not make any&nbsp;guarantees.<br />Please list the names of the individuals you'd like to room with in your registration form.&nbsp;<br /><br /><strong>Note:&nbsp;<br />All rooms must have at least one adult (over 21 years of age) if anyone in the room is under the age of 18 years.&nbsp;<br />All rooms are single gender, with the exception of families and sponsoring adults.</strong></div>
 
 <h2 class="wsite-content-title" style="text-align:left;">I want to attend but I am under 18 years of age, can I still attend?</h2>
-<div class="paragraph" style="text-align:left;display:block;">All youth, junior youth, and children must have a sponsoring adult (21 years of age and older) attending the Summer School with them. To request a sponsor please fill out and submit the form below.</div>
+<div class="paragraph" style="text-align:left;display:block;">All youth, junior youth, and children must have a sponsoring adult (21 years of age and older) attending the Summer School with them. Details on sponsorship will be available in the registration materials.</div>
 
 <h2 class="wsite-content-title" style="text-align:left;">I have food allergies or am a&nbsp;vegetarian, can I still eat in the Dining Hall?</h2>
-<div class="paragraph" style="text-align:left;display:block;">William Sears <span>Bah&aacute;'&iacute;</span> School will make every effort to accommodate requests but does not make any guarantees.<br /><br />All meals will provide a vegetarian and gluten free option, please state that you request&nbsp;vegetarian or gluten free meals in your&nbsp;registration.&nbsp;<br />If you have food allergies, please clearly state them in your registration form and the Committee will contact you to better&nbsp;accommodate&nbsp;and understand needs.&nbsp;</div>
+<div class="paragraph" style="text-align:left;display:block;">Minnesota Baha'i Summer School will make every effort to accommodate requests but does not make any guarantees.<br /><br />All meals will provide a vegetarian and gluten free option, please state that you request&nbsp;vegetarian or gluten free meals in your&nbsp;registration.&nbsp;<br />If you have food allergies, please clearly state them in your registration form and the Committee will contact you to better&nbsp;accommodate&nbsp;and understand needs.&nbsp;</div>
 
 <h2 class="wsite-content-title" style="text-align:left;">Can I place my child in the next grade?</h2>
-<div class="paragraph" style="text-align:left;display:block;">William Sears <span>Bah&aacute;'&iacute;</span> School strongly encourages all children to&nbsp;participate&nbsp;in their respective grade classes.&nbsp;Curriculum&nbsp;is carefully prepared to be age appropriate and is not always suitable or appropriate for a younger&nbsp;audience. &nbsp;Participants&nbsp;will automatically be placed in their current grade.</div>
+<div class="paragraph" style="text-align:left;display:block;">Minnesota Baha'i Summer School strongly encourages all children to&nbsp;participate&nbsp;in their respective grade classes.&nbsp;Curriculum&nbsp;is carefully prepared to be age appropriate and is not always suitable or appropriate for a younger&nbsp;audience. &nbsp;Participants&nbsp;will automatically be placed in their current grade.</div>
 
-<h2 class="wsite-content-title" style="text-align:left;">How do I get to Long Lake Conservation Center?<br /></h2>
-
-<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
-	<table class="wsite-multicol-table">
-		<tbody class="wsite-multicol-tbody">
-			<tr class="wsite-multicol-tr">
-				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
-					
-						
-
-<div class="paragraph" style="text-align:left;">Long Lake Conservation Center<br />28952 438th Lane<br />Palisade, MN &nbsp;56469<br />1-800-450-5522<br /><a href="http://www.llcc.org/">http://www.llcc.org/</a><br /><br /><a href="https://goo.gl/maps/vjYQb" target="_blank">Directions from Minneapolis, MN</a></div>
-
-
-					
-				</td>				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
-					
-						
-
-<div class="wsite-map"><iframe allowtransparency="true" frameborder="0" scrolling="no" style="width: 100%; height: 250px; margin-top: 10px; margin-bottom: 10px;" src="https://www.weebly.com/weebly/apps/generateMap.php?map=google&elementid=650512246271981102&ineditor=0&control=3&width=350px&height=250px&overviewmap=0&scalecontrol=0&typecontrol=0&zoom=15&long=-93.4885687&lat=46.7132862&domain=www&point=1&align=1&reseller=false"></iframe></div>
-
-
-					
-				</td>			</tr>
-		</tbody>
-	</table>
-</div></div></div>
+<h2 class="wsite-content-title" style="text-align:left;">Where is the Summer School located?</h2>
+<div class="paragraph" style="text-align:left;display:block;">The 2026 MN Baha'i Summer School will be held at:<br /><strong>True Friends Camp Courage</strong><br />10509 108th St. NW<br />Annandale, MN 55302<br /><br /><a href="https://maps.app.goo.gl/u4SjWJ6pL4V6B6pG9" target="_blank" style="color: #1e3a8a; font-weight: bold; text-decoration: underline;">View on Google Maps &rarr;</a></div>
 
 <div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
 <hr class="styled-hr" style="width:100%;"></hr>
 <div style="height: 20px; overflow: hidden; width: 100%;"></div></div>
 
-<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -0px;">
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
 	<table class="wsite-multicol-table">
 		<tbody class="wsite-multicol-tbody">
 			<tr class="wsite-multicol-tr">
-				<td class="wsite-multicol-col" style="width:76.166328600406%; padding:0 0px;">
+				<td class="wsite-multicol-col" style="width:76.166328600406%; padding:0 15px;">
 					
 						
 
@@ -354,7 +337,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 
 
 					
-				</td>				<td class="wsite-multicol-col" style="width:23.833671399594%; padding:0 0px;">
+				</td>				<td class="wsite-multicol-col" style="width:23.833671399594%; padding:0 15px;">
 					
 						
 
@@ -379,7 +362,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 
 <div id="footer-wrap">
 	<div class="container">
-		<div id="footer">Create a <a target="_top" href="https://www.weebly.com/">free web site</a> with <a target="_top" href="https://www.weebly.com/" title="free web site">Weebly</a></div>
+		<div id="footer" style="text-align: center; padding: 10px; color: #666; font-size: 0.9em;">© Minnesota William Sears Baha&#39;i School 2026 | Last updated March 2026</div>
     </div>
 </div>
 
@@ -387,6 +370,6 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
     <div id="customer-accounts-app"></div>
     <script src="https://cdn11.editmysite.com/js/site/main-customer-accounts-site.js?buildtime=1234"></script>
 
-		© Minnesota William Sears Baha'i School 2013 - Last updated February 2013 
+		 
 	</body>
 </html>
